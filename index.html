@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ludo Board</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="ludo-board">
+        <!-- Center Block -->
+        <div class="center-block">
+            <div class="center-square"></div>
+            <div class="center-square"></div>
+            <div class="center-square"></div>
+            <div class="center-square"></div>
+        </div>
+
+        <!-- Four main color zones -->
+        <div class="color-zone top-left"></div>
+        <div class="color-zone top-right"></div>
+        <div class="color-zone bottom-left"></div>
+        <div class="color-zone bottom-right"></div>
+
+        <!-- 4 Starting areas (colored squares) -->
+        <div class="start-area top-left-area"></div>
+        <div class="start-area top-right-area"></div>
+        <div class="start-area bottom-left-area"></div>
+        <div class="start-area bottom-right-area"></div>
+
+        <!-- Grid squares -->
+        <div class="grid">
+            <!-- Rows and columns of squares -->
+            <!-- Generate 15x15 grid (minus the center and zones) -->
+            <div class="row">
+                <div class="grid-square"></div>
+                <div class="grid-square"></div>
+                <!-- ... other grid squares -->
+            </div>
+        </div>
+    </div>
+</body>
+</html>

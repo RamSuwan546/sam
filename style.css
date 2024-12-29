@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.ludo-board {
+    position: relative;
+    width: 600px;
+    height: 600px;
+    display: grid;
+    grid-template-columns: repeat(15, 1fr);
+    grid-template-rows: repeat(15, 1fr);
+    gap: 2px;
+    background-color: #2c2c2c;
+    border: 5px solid #333;
+}
+
+.grid-square {
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+
+.center-block {
+    position: absolute;
+    top: 4;
+    left: 4;
+    width: 70%;
+    height: 70%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
+
+.center-square {
+    background-color: #ff0;
+    border: 2px solid #333;
+}
+
+.color-zone {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border: 2px solid #333;
+}
+
+.top-left {
+    top: 0;
+    left: 0;
+    background-color: red;
+}
+
+.top-right {
+    top: 0;
+    right: 0;
+    background-color: green;
+}
+
+.bottom-left {
+    bottom: 0;
+    left: 0;
+    background-color: yellow;
+}
+
+.bottom-right {
+    bottom: 0;
+    right: 0;
+    background-color: blue;
+}
+
+.start-area {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: #333;
+    border: 2px solid #fff;
+}
+
+.top-left-area {
+    top: 5px;
+    left: 5px;
+    background-color: red;
+}
+
+.top-right-area {
+    top: 5px;
+    right: 5px;
+    background-color: green;
+}
+
+.bottom-left-area {
+    bottom: 5px;
+    left: 5px;
+    background-color: yellow;
+}
+
+.bottom-right-area {
+    bottom: 5px;
+    right: 5px;
+    background-color: blue;
+}
